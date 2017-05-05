@@ -12,6 +12,12 @@
   }
 }
 
+.navbar-toggle {
+  .icon-bar{
+    background-color: #525252;
+  }
+}
+
 .nav-submenu{
   background-color: rgba(0,0,0,0.3);
 
@@ -30,5 +36,43 @@
       background-color: transparent;
       text-decoration: none;
     }
+  }
+}
+
+.footer{
+  .purple-strip{
+    background-color: $purple-footer;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+  .tel-footer{
+    color: $yellow-main;
+    font-weight: 700;
+  }
+  .list-ans{
+    text-align: center;
+    color: $gray-main;
+    font-size: 12px;
+    font-weight: 600;
+    li{
+      a{
+        color: $gray-main;
+        &:hover, &:focus{
+          text-decoration: underline;
+        }
+      }
+      &:nth-child(2){
+        &::before, &::after{
+          content: '|';
+          margin: 0 15px;
+        }
+      }
+    }
+  }
+  .copyright{
+    text-align: center;
+    font-size: 10px;
+    color: #CCC;
   }
 }

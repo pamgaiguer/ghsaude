@@ -2,6 +2,7 @@ $yellow-main: #f1cb3f;
 $yellow-darker: #b79105;
 
 $blue-main: #464e70;
+$purple-footer: #464672;
 
 $gray-main: #AEAEAE;
 
@@ -9,6 +10,9 @@ $gray-main: #AEAEAE;
   padding-bottom:10px;
 }
 
+.yellow-main{
+    color: $yellow-main;
+}
 
 
 h1,

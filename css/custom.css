@@ -7549,6 +7549,9 @@ button.close {
 .spacing {
   padding-bottom: 10px; }
 
+.yellow-main {
+  color: #f1cb3f; }
+
 h1,
 h2,
 h3,
@@ -8281,6 +8284,9 @@ body {
     outline: none;
     background-color: #f1cb3f; }
 
+.navbar-toggle .icon-bar {
+  background-color: #525252; }
+
 .nav-submenu {
   background-color: rgba(0, 0, 0, 0.3); }
   .nav-submenu .navbar-brand {
@@ -8294,6 +8300,31 @@ body {
       outline: none;
       background-color: transparent;
       text-decoration: none; }
+
+.footer .purple-strip {
+  background-color: #464672;
+  color: white;
+  padding: 30px 0;
+  text-align: center; }
+.footer .tel-footer {
+  color: #f1cb3f;
+  font-weight: 700; }
+.footer .list-ans {
+  text-align: center;
+  color: #AEAEAE;
+  font-size: 12px;
+  font-weight: 600; }
+  .footer .list-ans li a {
+    color: #AEAEAE; }
+    .footer .list-ans li a:hover, .footer .list-ans li a:focus {
+      text-decoration: underline; }
+  .footer .list-ans li:nth-child(2)::before, .footer .list-ans li:nth-child(2)::after {
+    content: '|';
+    margin: 0 15px; }
+.footer .copyright {
+  text-align: center;
+  font-size: 10px;
+  color: #CCC; }
 
 body {
   padding-top: 30px; }
