@@ -28,17 +28,40 @@
       }
 
       p{
-        color: white;
         font-size: 10px;
         font-weight: 400;
       }
     }
     .box-blue{
       background-color: $blue-main;
+      p{
+        color: white;
+      }
     }
 
     .box-yellow{
       background-color: $yellow-main;
+      p{
+        color: $blue-main;
+      }
+    }
+  }
+
+  .infos-partners{
+    .grupp-halsa, .doubts-about{
+      p{
+        margin: 15px 0;
+        color: $gray-main;
+        font-size: 12px;
+      }
+    }
+    .doubts-about{
+      .blue-info{
+        background-color: $blue-main;
+        color: white;
+        font-size: 14px;
+        font-weight: 700;
+      }
     }
   }
 }

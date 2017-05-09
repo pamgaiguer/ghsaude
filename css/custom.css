@@ -8372,13 +8372,25 @@ body {
       text-transform: uppercase;
       margin: 10px 0; }
     .home .box-services .box-blue p, .home .box-services .box-yellow p {
-      color: white;
       font-size: 10px;
       font-weight: 400; }
   .home .box-services .box-blue {
     background-color: #464e70; }
+    .home .box-services .box-blue p {
+      color: white; }
   .home .box-services .box-yellow {
     background-color: #f1cb3f; }
+    .home .box-services .box-yellow p {
+      color: #464e70; }
+.home .infos-partners .grupp-halsa p, .home .infos-partners .doubts-about p {
+  margin: 15px 0;
+  color: #AEAEAE;
+  font-size: 12px; }
+.home .infos-partners .doubts-about .blue-info {
+  background-color: #464e70;
+  color: white;
+  font-size: 14px;
+  font-weight: 700; }
 
 body {
   padding-top: 30px; }
