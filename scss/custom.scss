@@ -23,7 +23,9 @@ $step: 1;
 @import 'mixins';
 @import 'base';
 
+@import 'material-icons';
 @import 'website/includes';
+@import 'website/home';
 
 body{
   padding-top: 30px;

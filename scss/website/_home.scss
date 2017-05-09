@@ -1,0 +1,44 @@
+.home{
+  .carousel{
+    .carousel-control{
+      .material-icons{
+        margin-top: 250px;
+      }
+    }
+  }
+
+
+  .box-services{
+    margin: -150px 0 30px 150px;
+
+
+    .box-blue, .box-yellow{
+      width: 200px;
+      height: 200px;
+      float: left;
+      padding: 15px;
+
+      h2{
+        font-size: 14px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 10px 0;
+      }
+
+      p{
+        color: white;
+        font-size: 10px;
+        font-weight: 400;
+      }
+    }
+    .box-blue{
+      background-color: $blue-main;
+    }
+
+    .box-yellow{
+      background-color: $yellow-main;
+    }
+  }
+}

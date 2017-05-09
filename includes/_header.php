@@ -51,10 +51,10 @@
 
         <div class="collapse navbar-collapse" id="nav-submenu">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Solicite uma visita</a></li>
-            <li><a href="#">Ouvidoria</a></li>
-            <li><a href="#">Fale conosco</a></li>
+            <li><a href="#"><img src="/images/header/icon_4.png" alt="icon-menu">Home</a></li>
+            <li><a href="#"><img src="/images/header/icon_1.png" alt="icon-menu">Solicite uma visita</a></li>
+            <li><a href="#"><img src="/images/header/icon_2.png" alt="icon-menu">Ouvidoria</a></li>
+            <li><a href="#"><img src="/images/header/icon_3.png" alt="icon-menu">Fale conosco</a></li>
           </ul>
         </div>
 
