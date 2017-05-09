@@ -8275,6 +8275,14 @@ body {
   color: #000;
   overflow-x: hidden !important; }
 
+.btn-blue-main {
+  color: white;
+  background-color: #464e70;
+  border-color: #464e70; }
+  .btn-blue-main:hover, .btn-blue-main:focus {
+    color: white;
+    text-decoration: underline; }
+
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
@@ -8382,15 +8390,68 @@ body {
     background-color: #f1cb3f; }
     .home .box-services .box-yellow p {
       color: #464e70; }
-.home .infos-partners .grupp-halsa p, .home .infos-partners .doubts-about p {
+.home .infos-partners .grupp-halsa p {
   margin: 15px 0;
+  color: #AEAEAE;
+  font-size: 12px; }
+.home .infos-partners .doubts-about p {
   color: #AEAEAE;
   font-size: 12px; }
 .home .infos-partners .doubts-about .blue-info {
   background-color: #464e70;
   color: white;
   font-size: 14px;
-  font-weight: 700; }
+  font-weight: 700;
+  padding: 10px;
+  display: inline-block;
+  margin: 0; }
+.home .infos-partners .doubts-about .yellow-info {
+  background-color: #f1cb3f;
+  color: #464e70;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  display: inline-block; }
+.home .infos-partners .doubts-about .yellow-darker-info {
+  background-color: #b79105;
+  color: #464e70;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  display: inline-block; }
+.home .last-news-ombudsman {
+  margin-bottom: 30px; }
+  .home .last-news-ombudsman .title {
+    color: #464e70;
+    border-bottom: 2px solid #464e70;
+    margin-bottom: 15px; }
+  .home .last-news-ombudsman .last-news .post .title-report {
+    color: #464e70;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 15px 0 15px; }
+  .home .last-news-ombudsman .last-news .post .report-text {
+    color: #464e70;
+    font-size: 12px;
+    margin: 5px 0;
+    padding: 15px; }
+  .home .last-news-ombudsman .last-news .post a {
+    color: #464e70;
+    font-size: 12px;
+    font-weight: 600; }
+    .home .last-news-ombudsman .last-news .post a img {
+      margin-right: 10px; }
+  .home .last-news-ombudsman .ombudsman .form-group {
+    margin-bottom: 0; }
+  .home .last-news-ombudsman .ombudsman .input-group-addon {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    vertical-align: top; }
+  .home .last-news-ombudsman .ombudsman .form-control {
+    border: none; }
+  .home .last-news-ombudsman .ombudsman textarea {
+    resize: none; }
 
 body {
   padding-top: 30px; }

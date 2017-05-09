@@ -8,3 +8,14 @@ body {
   color:#000;
   overflow-x: hidden !important;
 }
+
+.btn-blue-main {
+    color: white;
+    background-color: $blue-main;
+    border-color: $blue-main;
+
+    &:hover, &:focus{
+      color: white;
+      text-decoration: underline;
+    }
+}

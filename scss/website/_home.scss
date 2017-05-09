@@ -48,9 +48,15 @@
   }
 
   .infos-partners{
-    .grupp-halsa, .doubts-about{
+    .grupp-halsa{
       p{
         margin: 15px 0;
+        color: $gray-main;
+        font-size: 12px;
+      }
+    }
+    .doubts-about{
+      p{
         color: $gray-main;
         font-size: 12px;
       }
@@ -61,6 +67,77 @@
         color: white;
         font-size: 14px;
         font-weight: 700;
+        padding: 10px;
+        display: inline-block;
+        margin: 0;
+      }
+      .yellow-info{
+        background-color: $yellow-main;
+        color: $blue-main;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 10px;
+        display: inline-block;
+      }
+      .yellow-darker-info{
+        background-color: $yellow-darker;
+        color: $blue-main;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 10px;
+        display: inline-block;
+      }
+    }
+  }
+
+  .last-news-ombudsman{
+    margin-bottom: 30px;
+    .title{
+      color: $blue-main;
+      border-bottom: 2px solid $blue-main;
+      margin-bottom: 15px;
+    }
+    .last-news{
+      .post{
+
+        .title-report{
+          color: $blue-main;
+          font-weight: 500;
+          font-size: 18px;
+          padding: 15px 15px 0 15px;
+        }
+        .report-text{
+          color: $blue-main;
+          font-size: 12px;
+          margin: 5px 0;
+          padding: 15px;
+        }
+        a{
+          color: $blue-main;
+          font-size: 12px;
+          font-weight: 600;
+
+          img{
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    .ombudsman{
+      .form-group{
+        margin-bottom: 0;
+      }
+      .input-group-addon {
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        vertical-align: top;
+      }
+      .form-control{
+        border:none;
+      }
+      textarea{
+        resize: none;
       }
     }
   }

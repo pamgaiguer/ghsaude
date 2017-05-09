@@ -30,7 +30,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <div class="box-services">
+        <div class="box-services hidden-xs">
           <div class="box-blue">
             <img src="images/rede_cred.png" class="img-responsive center-block" alt="">
             <h2>Rede Credenciada</h2>
@@ -90,18 +90,24 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
           <div class="doubts-about">
-            <img src="images/logos/logo_halsa.png" alt="">
+            <img src="images/com-vc-24h.png" alt="">
             <div class="spacing"></div>
             <p>
               A GH SAÚDE possui um moderno Contract Center dotado da mais avançada tecnologia e técnicos qualificados que garantem o suporte necessário ao seu segurado.
               24 horas por dia, todos os dias, o ano inteiro. Precisou?
             </p>
+
+            <div class="spacing"></div>
+            <div class="spacing"></div>
+
             <p class="blue-info">
               É só ligar:
             </p>
+            <br>
             <p class="yellow-info">
               0800-0004-1414
             </p>
+            <br>
             <p class="yellow-darker-info">
               (71) 3039-4800 | (71) 3032-1414
             </p>
@@ -111,6 +117,99 @@
     </div>
   </div>
 
+  <hr>
+
+  <div class="banner-home-ghsaude">
+
+  </div>
+
+  <div class="container">
+    <div class="last-news-ombudsman">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="last-news">
+            <h3 class="title">
+              Últimas notícias
+            </h3>
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="post">
+                  <img src="images/placeholders/img_ph_2.png" alt="">
+
+                  <h4 class="title-report">
+                    Título da notícia
+                  </h4>
+                  <p class="report-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ullam quas, minus beatae ...
+                  </p>
+                  <a href="#"><img src="images/mais_azul.png" alt="">Leia Mais</a>
+                </div>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <div class="post">
+                  <img src="images/placeholders/img_ph_1.png" alt="">
+
+                  <h4 class="title-report">
+                    Título da notícia
+                  </h4>
+                  <p class="report-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ullam quas, minus beatae ...
+                  </p>
+                  <a href="#"><img src="images/mais_amarelo.png" alt="">Leia Mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <div class="ombudsman">
+            <h3 class="title">
+              Ouvidoria
+            </h3>
+
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon"><img src="images/form5.png" alt=""></span>
+                <input type="text" class="form-control" placeholder="Nome Completo *">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+                <span class="input-group-addon"><img src="images/form4.png" alt=""></span>
+                <input type="text" class="form-control" placeholder="Telefone(s) *">
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="input-group">
+              <span class="input-group-addon"><img src="images/form3.png" alt=""></span>
+                <input type="text" class="form-control" placeholder="E-mail *">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+              <span class="input-group-addon"><img src="images/form1.png" alt=""></span>
+                <input type="text" class="form-control" placeholder="Assunto *">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+              <span class="input-group-addon"><img src="images/form2.png" alt=""></span>
+                <textarea name="" class="form-control" rows="10" placeholder="Mensagem*"></textarea>
+              </div>
+            </div>
+<div class="spacing"></div>
+            <div class="pull-right">
+              <a href="#" class="btn btn-blue-main">Enviar mensagem</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </main>
 
