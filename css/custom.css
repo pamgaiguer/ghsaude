@@ -8363,33 +8363,13 @@ body {
   font-size: 10px;
   color: #CCC; }
 
-.home .carousel .carousel-control .material-icons {
-  margin-top: 250px; }
-.home .box-services {
-  margin: -150px 0 30px 150px; }
-  .home .box-services .box-blue, .home .box-services .box-yellow {
-    width: 200px;
-    height: 200px;
-    float: left;
-    padding: 15px; }
-    .home .box-services .box-blue h2, .home .box-services .box-yellow h2 {
-      font-size: 14px;
-      font-weight: 700;
-      color: white;
-      text-align: center;
-      text-transform: uppercase;
-      margin: 10px 0; }
-    .home .box-services .box-blue p, .home .box-services .box-yellow p {
-      font-size: 10px;
-      font-weight: 400; }
-  .home .box-services .box-blue {
-    background-color: #464e70; }
-    .home .box-services .box-blue p {
-      color: white; }
-  .home .box-services .box-yellow {
-    background-color: #f1cb3f; }
-    .home .box-services .box-yellow p {
-      color: #464e70; }
+.home .banner-parallax {
+  background-image: url("../images/parallax.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px; }
 .home .infos-partners .grupp-halsa p {
   margin: 15px 0;
   color: #AEAEAE;
@@ -8453,7 +8433,52 @@ body {
   .home .last-news-ombudsman .ombudsman textarea {
     resize: none; }
 
+.institucional .title {
+  color: #464e70;
+  margin-bottom: 15px; }
+.institucional p {
+  color: #AEAEAE; }
+.institucional .blue-text {
+  color: #464e70;
+  font-weight: 600; }
+.institucional .list-itens-yellow {
+  margin-top: 15px; }
+  .institucional .list-itens-yellow li {
+    background-color: #f1cb3f;
+    color: #464e70;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px; }
+
 body {
   padding-top: 30px; }
+
+.home .carousel .carousel-control .material-icons, .institucional .carousel .carousel-control .material-icons {
+  margin-top: 250px; }
+.home .box-services, .institucional .box-services {
+  margin: -150px 0 30px 150px; }
+  .home .box-services .box-blue, .home .box-services .box-yellow, .institucional .box-services .box-blue, .institucional .box-services .box-yellow {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 15px; }
+    .home .box-services .box-blue h2, .home .box-services .box-yellow h2, .institucional .box-services .box-blue h2, .institucional .box-services .box-yellow h2 {
+      font-size: 14px;
+      font-weight: 700;
+      color: white;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 10px 0; }
+    .home .box-services .box-blue p, .home .box-services .box-yellow p, .institucional .box-services .box-blue p, .institucional .box-services .box-yellow p {
+      font-size: 10px;
+      font-weight: 400; }
+  .home .box-services .box-blue, .institucional .box-services .box-blue {
+    background-color: #464e70; }
+    .home .box-services .box-blue p, .institucional .box-services .box-blue p {
+      color: white; }
+  .home .box-services .box-yellow, .institucional .box-services .box-yellow {
+    background-color: #f1cb3f; }
+    .home .box-services .box-yellow p, .institucional .box-services .box-yellow p {
+      color: #464e70; }
 
 /*# sourceMappingURL=custom.css.map */

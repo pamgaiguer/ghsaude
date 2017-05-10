@@ -25,7 +25,7 @@
 
         <div class="collapse navbar-collapse" id="navbar-top">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Institucional</a></li>
+            <li><a href="institucional.php">Institucional</a></li>
             <li><a href="#">Produtos</a></li>
             <li><a href="#">Rede credenciada</a></li>
             <li><a href="#">Beneficiário</a></li>
@@ -46,7 +46,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/logos/logo_gh.png" alt=""></a>
+          <a class="navbar-brand" href="index.php"><img src="images/logos/logo_gh.png" alt=""></a>
         </div>
 
         <div class="collapse navbar-collapse" id="nav-submenu">

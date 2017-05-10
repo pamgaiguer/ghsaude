@@ -119,8 +119,10 @@
 
   <hr>
 
-  <div class="banner-home-ghsaude">
-
+  <div class="banner-parallax">
+    <div class="spacing"></div>
+    <img src="images/parallax.png" class="img-responsive center-block" alt="">
+    <div class="spacing"></div>
   </div>
 
   <div class="container">
@@ -181,25 +183,25 @@
             </div>
             <div class="form-group">
               <div class="input-group">
-              <span class="input-group-addon"><img src="images/form3.png" alt=""></span>
+                <span class="input-group-addon"><img src="images/form3.png" alt=""></span>
                 <input type="text" class="form-control" placeholder="E-mail *">
               </div>
             </div>
 
             <div class="form-group">
               <div class="input-group">
-              <span class="input-group-addon"><img src="images/form1.png" alt=""></span>
+                <span class="input-group-addon"><img src="images/form1.png" alt=""></span>
                 <input type="text" class="form-control" placeholder="Assunto *">
               </div>
             </div>
 
             <div class="form-group">
               <div class="input-group">
-              <span class="input-group-addon"><img src="images/form2.png" alt=""></span>
+                <span class="input-group-addon"><img src="images/form2.png" alt=""></span>
                 <textarea name="" class="form-control" rows="10" placeholder="Mensagem*"></textarea>
               </div>
             </div>
-<div class="spacing"></div>
+            <div class="spacing"></div>
             <div class="pull-right">
               <a href="#" class="btn btn-blue-main">Enviar mensagem</a>
             </div>
