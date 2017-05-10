@@ -27,12 +27,13 @@ $step: 1;
 @import 'website/includes';
 @import 'website/home';
 @import 'website/institucional';
+@import 'website/products';
 
 body{
   padding-top: 30px;
 }
 
-.home, .institucional{
+.home, .institucional, .products{
   .carousel{
     .carousel-control{
       .material-icons{

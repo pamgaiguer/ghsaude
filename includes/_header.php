@@ -26,7 +26,7 @@
         <div class="collapse navbar-collapse" id="navbar-top">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="institucional.php">Institucional</a></li>
-            <li><a href="#">Produtos</a></li>
+            <li><a href="produtos.php">Produtos</a></li>
             <li><a href="#">Rede credenciada</a></li>
             <li><a href="#">Beneficiário</a></li>
             <li><a href="#">Credenciado</a></li>

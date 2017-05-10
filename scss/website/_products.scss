@@ -1,0 +1,47 @@
+.products{
+  .title{
+    color: $blue-main;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    img{
+      padding-right: 10px;
+    }
+  }
+  p{
+    color: $gray-main;
+  }
+  .blue-text-18{
+    color: $blue-main;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  .item-product{
+    margin-top: 15px;
+    background-color: $yellow-main;
+    color: $blue-main;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px;
+    text-transform: uppercase;
+    width: 30%;
+  }
+
+  .media{
+    .media-body{
+      .media-heading{
+        color: $blue-main;
+        font-weight: 600;
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+      .media-text{
+        color: $gray-main;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+  }
+}

@@ -1,7 +1,7 @@
 <?php include 'includes/_header.php';?>
 
 <main class="institucional">
-  <div id="slider-home" classuma tecnologia de gestão de medicina de grupo, espelhada na competência dos sistemas de="carousel slide" data-ride="carousel">
+  <div id="slider-home" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="images/slider/slider_1.jpg">
@@ -70,7 +70,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        <h3 class="title"><img src="images/pgIcon_institucional.jpg" alt="">Institucional</h3>
+        <h3 class="title"><img src="images/pgIcon_produto.png" alt="">Produtos</h3>
         <p class="text-justify">
           O Grupp Hälsa trouxe para o Brasil uma tecnologia de gestão de medicina de grupo, espelhada na competência dos sistemas de gestão internacional, onde a organização, capacitação continuada e logística operacional, são fatores de excelência na velocidade e qualidade do atendimento, possibilitando proporcionar, além da segurança, a qualidade de vida que você e sua família sempre sonharam.
         </p>
@@ -105,56 +105,56 @@
 
         <p>Estamos presentes em 52 cidades da Bahia e damos cobertura médica em 416 municípios.</p>
 
-<div class="mb-40"></div>
+        <div class="mb-40"></div>
 
       </div>
       <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
 
-          <div class="doubts-about">
-            <img src="images/com-vc-24h.png" alt="">
-            <div class="spacing"></div>
-            <p>
-              A GH SAÚDE possui um moderno Contract Center dotado da mais avançada tecnologia e técnicos qualificados que garantem o suporte necessário ao seu segurado.
-              24 horas por dia, todos os dias, o ano inteiro. Precisou?
-            </p>
-
-            <div class="spacing"></div>
-            <div class="spacing"></div>
-
-            <p class="blue-info">
-              É só ligar:
-            </p>
-            <br>
-            <p class="yellow-info">
-              0800-0004-1414
-            </p>
-            <br>
-            <p class="yellow-darker-info">
-              (71) 3039-4800 | (71) 3032-1414
-            </p>
-          </div>
+        <div class="doubts-about">
+          <img src="images/com-vc-24h.png" alt="">
+          <div class="spacing"></div>
+          <p>
+            A GH SAÚDE possui um moderno Contract Center dotado da mais avançada tecnologia e técnicos qualificados que garantem o suporte necessário ao seu segurado.
+            24 horas por dia, todos os dias, o ano inteiro. Precisou?
+          </p>
 
           <div class="spacing"></div>
           <div class="spacing"></div>
-          <div class="spacing"></div>
 
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <img src="images/office/IMG_4304.JPG.opt254x191o0,0s254x191.jpg" alt="">
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <img src="images/office/IMG_4304.JPG.opt254x191o0,0s254x191.jpg" alt="">
-            </div>
-          </div>
+          <p class="blue-info">
+            É só ligar:
+          </p>
+          <br>
+          <p class="yellow-info">
+            0800-0004-1414
+          </p>
+          <br>
+          <p class="yellow-darker-info">
+            (71) 3039-4800 | (71) 3032-1414
+          </p>
+        </div>
 
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <img src="images/office/IMG_4304.JPG.opt254x191o0,0s254x191.jpg" alt="">
-            </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <img src="images/office/IMG_4304.JPG.opt254x191o0,0s254x191.jpg" alt="">
-            </div>
+        <div class="spacing"></div>
+        <div class="spacing"></div>
+        <div class="spacing"></div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="images/office/IMG_4304.JPG.opt254x191o0,0s254x191.jpg" alt="">
           </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="images/office/IMG_4304.JPG.opt254x191o0,0s254x191.jpg" alt="">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="images/office/IMG_4304.JPG.opt254x191o0,0s254x191.jpg" alt="">
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <img src="images/office/IMG_4304.JPG.opt254x191o0,0s254x191.jpg" alt="">
+          </div>
+        </div>
 
 
       </div>
