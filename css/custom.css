@@ -8435,7 +8435,11 @@ body {
 
 .institucional .title {
   color: #464e70;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .institucional .title img {
+    padding-right: 10px; }
 .institucional p {
   color: #AEAEAE; }
 .institucional .blue-text {
@@ -8449,6 +8453,28 @@ body {
     font-weight: 700;
     font-size: 20px;
     padding: 15px; }
+.institucional .doubts-about .blue-info {
+  background-color: #464e70;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  display: inline-block;
+  margin: 0; }
+.institucional .doubts-about .yellow-info {
+  background-color: #f1cb3f;
+  color: #464e70;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  display: inline-block; }
+.institucional .doubts-about .yellow-darker-info {
+  background-color: #b79105;
+  color: #464e70;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px;
+  display: inline-block; }
 
 body {
   padding-top: 30px; }
