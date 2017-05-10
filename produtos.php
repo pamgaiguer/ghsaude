@@ -112,39 +112,36 @@
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="media">
-          <div class="media-left media-middle">
+          <div class="media-left media-top">
             <img class="media-object" src="http://placehold.it/150x150">
           </div>
           <div class="media-body">
             <h4 class="media-heading">Título do produto</h4>
             <p class="media-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit animi, voluptate totam ullam fuga culpa assumenda nesciunt nam magni error vero nihil consectetur velit quod, repudiandae quos exercitationem. Nemo!
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit animi, voluptate totam ullam fuga culpa assumenda nesciunt nam magni error vero nihil consectetur velit quod, repudiandae quos exercitationem. Nemo!
             </p>
           </div>
         </div>
         <div class="spacing"></div>
         <div class="media">
-          <div class="media-left media-middle">
+          <div class="media-left media-top">
             <img class="media-object" src="http://placehold.it/150x150">
           </div>
           <div class="media-body">
             <h4 class="media-heading">Título do produto</h4>
             <p class="media-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit animi, voluptate totam ullam fuga culpa assumenda nesciunt nam magni error vero nihil consectetur velit quod, repudiandae quos exercitationem. Nemo!
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit animi, voluptate totam ullam fuga culpa assumenda nesciunt nam magni error vero nihil consectetur velit quod, repudiandae quos exercitationem. Nemo!
             </p>
           </div>
         </div>
         <div class="spacing"></div>
         <div class="media">
-          <div class="media-left media-middle">
+          <div class="media-left media-top">
             <img class="media-object" src="http://placehold.it/150x150">
           </div>
           <div class="media-body">
             <h4 class="media-heading">Título do produto</h4>
             <p class="media-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit animi, voluptate totam ullam fuga culpa assumenda nesciunt nam magni error vero nihil consectetur velit quod, repudiandae quos exercitationem. Nemo!
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae sit animi, voluptate totam ullam fuga culpa assumenda nesciunt nam magni error vero nihil consectetur velit quod, repudiandae quos exercitationem. Nemo!
             </p>
           </div>

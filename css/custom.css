@@ -8507,7 +8507,42 @@ body {
 .products .media .media-body .media-text {
   color: #AEAEAE;
   font-size: 16px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  text-overflow: ellipsis;
+  text-align: justify; }
+
+@media (min-width: 0px) and (max-width: 375px) {
+  .products .item-product {
+    width: 50%; } }
+@media (min-width: 376px) and (max-width: 1024px) {
+  .products .item-product {
+    width: 50%; } }
+#accessPages .modal-header {
+  border-bottom: none; }
+#accessPages .modal-body {
+  padding: 15px; }
+  #accessPages .modal-body .title {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #464e70; }
+    #accessPages .modal-body .title img {
+      padding-right: 15px; }
+  #accessPages .modal-body .blue-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #464e70;
+    margin-top: 15px; }
+  #accessPages .modal-body .form-group {
+    margin-bottom: 0; }
+  #accessPages .modal-body .input-group-addon {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    vertical-align: top; }
+  #accessPages .modal-body .form-control {
+    border: none; }
 
 body {
   padding-top: 30px; }
