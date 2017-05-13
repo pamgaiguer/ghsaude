@@ -8531,9 +8531,26 @@ body {
   font-weight: 600; }
 .news .thumbnail {
   border: none;
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  padding: 0;
+  width: 260px; }
+  .news .thumbnail img {
+    width: 260px; }
+  .news .thumbnail .news-date {
+    background: #f1cb3f;
+    padding: 5px 10px;
+    width: 90px;
+    margin-top: -15px;
+    z-index: 99999;
+    position: relative;
+    margin-left: 15px; }
+    .news .thumbnail .news-date p {
+      color: #464e70;
+      font-size: 14px;
+      font-weight: 400; }
   .news .thumbnail .caption {
-    padding: 45px; }
+    margin: 10px 0;
+    padding: 0 15px; }
     .news .thumbnail .caption h3 {
       font-size: 20px;
       font-weight: 600;
