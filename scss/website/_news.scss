@@ -21,6 +21,8 @@
     background-color: #f9f9f9;
     padding: 0;
     width: 260px;
+    margin-bottom: 20px;
+    padding-bottom: 2px;
 
     img{
       width: 260px;
@@ -46,10 +48,37 @@
       padding: 0 15px;
 
       h3{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
         color: $blue-main;
         text-transform: uppercase;
+        margin-bottom: 15px;
+      }
+
+      .btn-plus{
+        margin-top: 20px;
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 21px;
+        padding: 15px 30px 15px 30px;
+        background-position: 0 10px;
+
+        color: $blue-main;
+        font-size: 12px;
+        font-weight: 600;
+        vertical-align: text-bottom;
+
+        &:hover{
+          color: $blue-main;
+          font-size: 12px;
+          font-weight: 600;
+        }
+      }
+      .plus-yellow{
+        background-image: url(../images/mais_amarelo.png);
+      }
+      .plus-blue{
+        background-image: url(../images/mais_azul.png);
       }
     }
   }

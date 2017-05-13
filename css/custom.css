@@ -8533,7 +8533,9 @@ body {
   border: none;
   background-color: #f9f9f9;
   padding: 0;
-  width: 260px; }
+  width: 260px;
+  margin-bottom: 20px;
+  padding-bottom: 2px; }
   .news .thumbnail img {
     width: 260px; }
   .news .thumbnail .news-date {
@@ -8552,10 +8554,30 @@ body {
     margin: 10px 0;
     padding: 0 15px; }
     .news .thumbnail .caption h3 {
-      font-size: 20px;
+      font-size: 18px;
       font-weight: 600;
       color: #464e70;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      margin-bottom: 15px; }
+    .news .thumbnail .caption .btn-plus {
+      margin-top: 20px;
+      background-repeat: no-repeat;
+      width: 21px;
+      height: 21px;
+      padding: 15px 30px 15px 30px;
+      background-position: 0 10px;
+      color: #464e70;
+      font-size: 12px;
+      font-weight: 600;
+      vertical-align: text-bottom; }
+      .news .thumbnail .caption .btn-plus:hover {
+        color: #464e70;
+        font-size: 12px;
+        font-weight: 600; }
+    .news .thumbnail .caption .plus-yellow {
+      background-image: url(../images/mais_amarelo.png); }
+    .news .thumbnail .caption .plus-blue {
+      background-image: url(../images/mais_azul.png); }
 
 #accessPages .modal-header {
   border-bottom: none; }
