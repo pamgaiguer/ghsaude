@@ -8579,6 +8579,19 @@ body {
     .news .thumbnail .caption .plus-blue {
       background-image: url(../images/mais_azul.png); }
 
+.news-open .title {
+  color: #464e70;
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .news-open .title img {
+    padding-right: 10px; }
+.news-open p {
+  color: #AEAEAE; }
+.news-open .blue-text {
+  color: #464e70;
+  font-weight: 600; }
+
 #accessPages .modal-header {
   border-bottom: none; }
 #accessPages .modal-body {

@@ -83,3 +83,23 @@
     }
   }
 }
+
+.news-open{
+  .title{
+    color: $blue-main;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    img{
+      padding-right: 10px;
+    }
+  }
+  p{
+    color: $gray-main;
+  }
+  .blue-text{
+    color: $blue-main;
+    font-weight: 600;
+  }
+}
