@@ -6,7 +6,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <!-- <img src="images/" alt="" class="img-responsive center-block"> -->
           <p>Av. Tancredo Neves, 620, sala 715 - Edf. Mundo Plaza - Caminho das Árvores - Salvador - Bahia - CEP: 41820-020</p>
-          <p class="tel-footer">Tel. + 55 71. 3039-4800/3032-1414</p>
+          <p class="tel-footer">Tel. + 55 71 3039-4800/3032-1414</p>
         </div>
       </div>
     </div>

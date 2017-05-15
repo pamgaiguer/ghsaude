@@ -8369,7 +8369,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 250px; }
+  height: 250px;
+  margin-bottom: 50px; }
 .home .infos-partners .grupp-halsa p {
   margin: 15px 0;
   color: #AEAEAE;
@@ -8429,7 +8430,10 @@ body {
     border: none;
     vertical-align: top; }
   .home .last-news-ombudsman .ombudsman .form-control {
-    border: none; }
+    border: none;
+    height: 55px; }
+    .home .last-news-ombudsman .ombudsman .form-control:focus {
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
   .home .last-news-ombudsman .ombudsman textarea {
     resize: none; }
 
@@ -8601,6 +8605,56 @@ body {
     font-size: 14px;
     font-weight: 700; }
 
+.ask-for-visit .visit-form .title {
+  color: #464e70;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase; }
+.ask-for-visit .visit-form p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #AEAEAE; }
+.ask-for-visit .visit-form .form-group {
+  margin-bottom: 0; }
+.ask-for-visit .visit-form .input-group-addon {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  vertical-align: top; }
+.ask-for-visit .visit-form .form-control {
+  border: none;
+  height: 55px; }
+  .ask-for-visit .visit-form .form-control:focus {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+.ask-for-visit .visit-form textarea {
+  resize: none; }
+
+.contact-us .contact-form .title, .contact-us .ombdusman-form .title {
+  color: #464e70;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase; }
+.contact-us .contact-form p, .contact-us .ombdusman-form p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #AEAEAE; }
+.contact-us .contact-form .form-group, .contact-us .ombdusman-form .form-group {
+  margin-bottom: 0; }
+.contact-us .contact-form .input-group-addon, .contact-us .ombdusman-form .input-group-addon {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  vertical-align: top; }
+.contact-us .contact-form .form-control, .contact-us .ombdusman-form .form-control {
+  border: none;
+  height: 55px; }
+  .contact-us .contact-form .form-control:focus, .contact-us .ombdusman-form .form-control:focus {
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+.contact-us .contact-form textarea, .contact-us .ombdusman-form textarea {
+  resize: none; }
+
 #accessPages .modal-header {
   border-bottom: none; }
 #accessPages .modal-body {
@@ -8631,32 +8685,32 @@ body {
 body {
   padding-top: 30px; }
 
-.home .carousel .carousel-control .material-icons, .institucional .carousel .carousel-control .material-icons, .products .carousel .carousel-control .material-icons, .news .carousel .carousel-control .material-icons, .news-open .carousel .carousel-control .material-icons {
+.home .carousel .carousel-control .material-icons, .institucional .carousel .carousel-control .material-icons, .products .carousel .carousel-control .material-icons, .news .carousel .carousel-control .material-icons, .news-open .carousel .carousel-control .material-icons, .ask-for-visit .carousel .carousel-control .material-icons, .contact-us .carousel .carousel-control .material-icons {
   margin-top: 250px; }
-.home .box-services, .institucional .box-services, .products .box-services, .news .box-services, .news-open .box-services {
+.home .box-services, .institucional .box-services, .products .box-services, .news .box-services, .news-open .box-services, .ask-for-visit .box-services, .contact-us .box-services {
   margin: -150px 0 30px 150px; }
-  .home .box-services .box-blue, .home .box-services .box-yellow, .institucional .box-services .box-blue, .institucional .box-services .box-yellow, .products .box-services .box-blue, .products .box-services .box-yellow, .news .box-services .box-blue, .news .box-services .box-yellow, .news-open .box-services .box-blue, .news-open .box-services .box-yellow {
+  .home .box-services .box-blue, .home .box-services .box-yellow, .institucional .box-services .box-blue, .institucional .box-services .box-yellow, .products .box-services .box-blue, .products .box-services .box-yellow, .news .box-services .box-blue, .news .box-services .box-yellow, .news-open .box-services .box-blue, .news-open .box-services .box-yellow, .ask-for-visit .box-services .box-blue, .ask-for-visit .box-services .box-yellow, .contact-us .box-services .box-blue, .contact-us .box-services .box-yellow {
     width: 200px;
     height: 200px;
     float: left;
     padding: 15px; }
-    .home .box-services .box-blue h2, .home .box-services .box-yellow h2, .institucional .box-services .box-blue h2, .institucional .box-services .box-yellow h2, .products .box-services .box-blue h2, .products .box-services .box-yellow h2, .news .box-services .box-blue h2, .news .box-services .box-yellow h2, .news-open .box-services .box-blue h2, .news-open .box-services .box-yellow h2 {
+    .home .box-services .box-blue h2, .home .box-services .box-yellow h2, .institucional .box-services .box-blue h2, .institucional .box-services .box-yellow h2, .products .box-services .box-blue h2, .products .box-services .box-yellow h2, .news .box-services .box-blue h2, .news .box-services .box-yellow h2, .news-open .box-services .box-blue h2, .news-open .box-services .box-yellow h2, .ask-for-visit .box-services .box-blue h2, .ask-for-visit .box-services .box-yellow h2, .contact-us .box-services .box-blue h2, .contact-us .box-services .box-yellow h2 {
       font-size: 14px;
       font-weight: 700;
       color: white;
       text-align: center;
       text-transform: uppercase;
       margin: 10px 0; }
-    .home .box-services .box-blue p, .home .box-services .box-yellow p, .institucional .box-services .box-blue p, .institucional .box-services .box-yellow p, .products .box-services .box-blue p, .products .box-services .box-yellow p, .news .box-services .box-blue p, .news .box-services .box-yellow p, .news-open .box-services .box-blue p, .news-open .box-services .box-yellow p {
+    .home .box-services .box-blue p, .home .box-services .box-yellow p, .institucional .box-services .box-blue p, .institucional .box-services .box-yellow p, .products .box-services .box-blue p, .products .box-services .box-yellow p, .news .box-services .box-blue p, .news .box-services .box-yellow p, .news-open .box-services .box-blue p, .news-open .box-services .box-yellow p, .ask-for-visit .box-services .box-blue p, .ask-for-visit .box-services .box-yellow p, .contact-us .box-services .box-blue p, .contact-us .box-services .box-yellow p {
       font-size: 10px;
       font-weight: 400; }
-  .home .box-services .box-blue, .institucional .box-services .box-blue, .products .box-services .box-blue, .news .box-services .box-blue, .news-open .box-services .box-blue {
+  .home .box-services .box-blue, .institucional .box-services .box-blue, .products .box-services .box-blue, .news .box-services .box-blue, .news-open .box-services .box-blue, .ask-for-visit .box-services .box-blue, .contact-us .box-services .box-blue {
     background-color: #464e70; }
-    .home .box-services .box-blue p, .institucional .box-services .box-blue p, .products .box-services .box-blue p, .news .box-services .box-blue p, .news-open .box-services .box-blue p {
+    .home .box-services .box-blue p, .institucional .box-services .box-blue p, .products .box-services .box-blue p, .news .box-services .box-blue p, .news-open .box-services .box-blue p, .ask-for-visit .box-services .box-blue p, .contact-us .box-services .box-blue p {
       color: white; }
-  .home .box-services .box-yellow, .institucional .box-services .box-yellow, .products .box-services .box-yellow, .news .box-services .box-yellow, .news-open .box-services .box-yellow {
+  .home .box-services .box-yellow, .institucional .box-services .box-yellow, .products .box-services .box-yellow, .news .box-services .box-yellow, .news-open .box-services .box-yellow, .ask-for-visit .box-services .box-yellow, .contact-us .box-services .box-yellow {
     background-color: #f1cb3f; }
-    .home .box-services .box-yellow p, .institucional .box-services .box-yellow p, .products .box-services .box-yellow p, .news .box-services .box-yellow p, .news-open .box-services .box-yellow p {
+    .home .box-services .box-yellow p, .institucional .box-services .box-yellow p, .products .box-services .box-yellow p, .news .box-services .box-yellow p, .news-open .box-services .box-yellow p, .ask-for-visit .box-services .box-yellow p, .contact-us .box-services .box-yellow p {
       color: #464e70; }
 
 /*# sourceMappingURL=custom.css.map */

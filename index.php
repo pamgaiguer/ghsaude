@@ -59,9 +59,9 @@
   <hr>
 
   <div class="banner-parallax">
-    <div class="spacing"></div>
+<!--     <div class="spacing"></div>
     <img src="images/parallax.png" class="img-responsive center-block" alt="">
-    <div class="spacing"></div>
+    <div class="spacing"></div> -->
   </div>
 
   <div class="container">

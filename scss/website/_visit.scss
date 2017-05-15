@@ -1,0 +1,39 @@
+.ask-for-visit{
+
+  .visit-form{
+    .title{
+      color: $blue-main;
+      margin-bottom: 15px;
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+    p{
+      font-size: 14px;
+      font-weight: 400;
+      color: $gray-main;
+    }
+    .form-group{
+      margin-bottom: 0;
+    }
+    .input-group-addon {
+      padding: 0;
+      background-color: transparent;
+      border: none;
+      vertical-align: top;
+    }
+    .form-control{
+      border:none;
+      height: 55px;
+
+        &:focus{
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+        }
+
+    }
+    textarea{
+      resize: none;
+    }
+  }
+
+}

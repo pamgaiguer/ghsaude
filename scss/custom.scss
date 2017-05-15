@@ -29,13 +29,15 @@ $step: 1;
 @import 'website/institucional';
 @import 'website/products';
 @import 'website/news';
+@import 'website/visit';
+@import 'website/contact-us';
 @import 'website/modal';
 
 body{
   padding-top: 30px;
 }
 
-.home, .institucional, .products, .news, .news-open{
+.home, .institucional, .products, .news, .news-open, .ask-for-visit, .contact-us{
   .carousel{
     .carousel-control{
       .material-icons{
