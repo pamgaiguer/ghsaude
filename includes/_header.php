@@ -31,7 +31,7 @@
             <li><a href="#">Beneficiário</a></li>
             <li><a href="#">Credenciado</a></li>
             <li><a href="#">Cliente Pessoa Jurídica</a></li>
-            <li><a href="#">Notícias</a></li>
+            <li><a href="news.php">Notícias</a></li>
           </ul>
         </div>
 
